@@ -15,7 +15,7 @@ public class bubbleSORT {
     
             for(i = 0; i < arr.length; i ++){
                 
-                for(j = 0; j < arr.length - 1  ;j++){
+                for(j = 0; j < arr.length - 1 -i ;j++){      // -i makes the loop more optimised
                     
                     if(arr[j] > arr[j+1]){
                         
